@@ -1,5 +1,8 @@
 # Screen Recorder for Ubuntu
 
+<img width="1299" height="731" alt="Screenshot from 2026-11-26 15-29-44" src="https://github.com/user-attachments/assets/05bd57c2-b1e0-4c34-a531-69c0d855084c" />
+
+
 A simple desktop app that records your screen together with your microphone
 and/or your computer's sound, and saves it as an **MP4** video that plays
 everywhere.
