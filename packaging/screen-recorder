@@ -1,0 +1,5 @@
+#!/bin/sh
+export SCREEN_RECORDER_CMD=/usr/bin/screen-recorder
+export PYTHONPATH=/usr/lib/screen-recorder
+export PYTHONDONTWRITEBYTECODE=1
+exec /usr/bin/python3 -P -m screen_recorder "$@"

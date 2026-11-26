@@ -1,0 +1,28 @@
+# Ubuntu packages (installed with apt, not pip). install.sh pulls them in
+# automatically through the .deb dependencies.
+python3
+python3-gi
+gir1.2-gtk-4.0
+gir1.2-adw-1
+gir1.2-gstreamer-1.0
+gstreamer1.0-pipewire
+gstreamer1.0-pulseaudio
+gstreamer1.0-plugins-base
+gstreamer1.0-plugins-good
+gstreamer1.0-plugins-bad
+gstreamer1.0-plugins-ugly
+gstreamer1.0-libav
+pipewire
+pipewire-pulse
+xdg-desktop-portal
+xdg-desktop-portal-gnome
+
+# Recommended: hardware encoding (VA-API)
+gstreamer1.0-vaapi
+intel-media-va-driver
+mesa-va-drivers
+
+# Only for the tests in tests/
+ffmpeg
+gstreamer1.0-tools
+pipewire-bin

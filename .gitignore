@@ -1,0 +1,17 @@
+# Build output (publish the .deb as a GitHub Release instead)
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*~
+
+# Test recordings and temporary files
+*.mp4
+*.mkv
+*.tmp

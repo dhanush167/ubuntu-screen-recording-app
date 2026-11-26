@@ -1,0 +1,17 @@
+[Desktop Entry]
+Type=Application
+Name=Screen Recorder
+Comment=Record the screen and audio to MP4
+Exec=screen-recorder
+Icon=io.github.local.ScreenRecorder
+Terminal=false
+Categories=AudioVideo;Recorder;
+Keywords=record;screencast;capture;video;
+StartupNotify=true
+StartupWMClass=io.github.local.ScreenRecorder
+X-GNOME-UsesNotifications=true
+Actions=toggle;
+
+[Desktop Action toggle]
+Name=Start or stop recording
+Exec=screen-recorder --toggle
